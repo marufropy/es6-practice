@@ -3,11 +3,11 @@ let age = 25;
 age = 28;
 console.log(name, age);
 
-// function addNum(a, b = 0){
-//     return a + b;
-// }
-// const result = addNum(15);
-// console.log(result);
+function addNum(a, b = 0){
+    return a + b;
+}
+const result = addNum(15);
+console.log(result);
 
 // const firstName = "Maruf"
 // const lastName = "Ropy"
