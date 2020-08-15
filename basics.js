@@ -17,3 +17,18 @@ console.log(fullName);
 const doubleIt = (num) => num * 2;
 const output = doubleIt(5);
 console.log(output);
+
+const arr1 = [15, 20];
+const arr2 = [25, 30];
+const arr3 = [...arr1, ...arr2];
+console.log(arr3);
+
+const num1 = 25;
+const num2 = 50;
+const num3 = 35;
+const maxNum = Math.max(num1, num2, num3);
+console.log(maxNum);
+
+numArr = [25, 50, 35];
+const maxNumArr = Math.max(...numArr);
+console.log(maxNumArr);
