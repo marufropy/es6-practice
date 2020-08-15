@@ -33,11 +33,18 @@ numArr = [25, 50, 35];
 const maxNumArr = Math.max(...numArr);
 //console.log(maxNumArr);
 
-class Student{
+class Class{
+    constructor(school){
+        this.school = "Scholastica";
+    }
+}
+
+class Student extends Class{
     constructor(sId, sName){
+        super();
+        this.level = "A";
         this.id = sId;
         this.name = sName;
-        this.school = "Scholastica";
     }
 }
 const student1 = new Student(1, "Maruf");
