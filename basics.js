@@ -14,6 +14,6 @@ const lastName = "Ropy"
 const fullName =`${firstName} ${lastName}`;
 console.log(fullName);
 
-const doubleIt = (num) => num * 2;
-const output = doubleIt(5);
-console.log(output);
+// const doubleIt = (num) => num * 2;
+// const output = doubleIt(5);
+// console.log(output);
